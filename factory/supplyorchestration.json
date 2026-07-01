@@ -1,0 +1,21 @@
+{
+	"name": "supplyorchestration",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "cc85c690-ce56-4224-a21c-0a9677088501",
+		"tenantId": "69356299-cb74-4c50-b4a7-d93f32f36e24",
+		"userAssignedIdentities": {
+			"/subscriptions/2638f505-8fff-4d75-9646-8c0808976ee7/resourcegroups/rg-project-dev-supply/providers/Microsoft.ManagedIdentity/userAssignedIdentities/adf_adb": {
+				"clientId": "bb2039ff-f9db-4b9a-948e-f4b15dd628fc",
+				"principalId": "4c732eea-1bd2-4523-b5f3-f3b56c3ee53b"
+			}
+		}
+	}
+}
